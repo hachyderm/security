@@ -1,2 +1,3 @@
-# security
+# Security
+
 Security resources for Hachyderm
