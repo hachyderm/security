@@ -1,0 +1,15 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-02 07:19 PST
+Nmap scan report for cdn-fremont-1.hachyderm.io (74.207.251.5)
+Host is up (0.023s latency).
+Other addresses for cdn-fremont-1.hachyderm.io (not scanned): 2600:3c01::f03c:93ff:fe09:c886
+rDNS record for 74.207.251.5: 74-207-251-5.ip.linodeusercontent.com
+Not shown: 987 filtered tcp ports (no-response), 10 filtered tcp ports (admin-prohibited)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+| http-security-headers: 
+|   Strict_Transport_Security: 
+|_    HSTS not configured in HTTPS Server
+
+Nmap done: 1 IP address (1 host up) scanned in 6.04 seconds

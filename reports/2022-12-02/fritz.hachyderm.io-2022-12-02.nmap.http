@@ -1,0 +1,17 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-02 07:47 PST
+Nmap scan report for fritz.hachyderm.io (142.132.128.70)
+Host is up (0.16s latency).
+Not shown: 985 filtered tcp ports (no-response), 12 filtered tcp ports (admin-prohibited)
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+80/tcp  closed http
+443/tcp open   https
+| http-headers: 
+|   Date: Fri, 02 Dec 2022 15:47:29 GMT
+|   Content-Type: text/html; charset=UTF-8
+|   Content-Length: 0
+|   Connection: close
+|   
+|_  (Request type: GET)
+
+Nmap done: 1 IP address (1 host up) scanned in 13.34 seconds

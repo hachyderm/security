@@ -1,0 +1,10 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-02 07:40 PST
+Nmap scan report for alice.hachyderm.io (63.228.108.114)
+Host is up (0.0018s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.79 seconds

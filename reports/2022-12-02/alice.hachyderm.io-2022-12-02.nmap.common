@@ -1,0 +1,20 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-02 07:41 PST
+Nmap scan report for alice.hachyderm.io (63.228.108.114)
+Host is up (0.0021s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+| ssh-hostkey: 
+|   256 856a74694258a5d5c50eb9f54144754c (ECDSA)
+|_  256 b01aed446438975c278f308f5358ff49 (ED25519)
+80/tcp  open  http
+|_http-title: 404 Not Found
+443/tcp open  https
+|_http-title: Site doesn't have a title (application/octet-stream).
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=grafana.hachyderm.io
+| Subject Alternative Name: DNS:grafana.hachyderm.io
+| Not valid before: 2022-11-05T11:10:35
+|_Not valid after:  2023-02-03T11:10:34
+
+Nmap done: 1 IP address (1 host up) scanned in 10.22 seconds

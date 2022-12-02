@@ -1,0 +1,18 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-02 07:48 PST
+Stats: 0:00:02 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 1.15% done; ETC: 07:50 (0:01:26 remaining)
+Nmap scan report for franz.hachyderm.io (88.99.61.61)
+Host is up (0.16s latency).
+Other addresses for franz.hachyderm.io (not scanned): 2a01:4f8:10a:d68::2
+rDNS record for 88.99.61.61: static.61.61.99.88.clients.your-server.de
+Not shown: 986 filtered tcp ports (no-response), 13 filtered tcp ports (admin-prohibited)
+PORT   STATE SERVICE
+22/tcp open  ssh
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6, Linux 5.0 - 5.4
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.34 seconds

@@ -1,0 +1,18 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-02 06:51 PST
+Nmap scan report for hachyderm.io (74.207.251.5)
+Host is up (0.022s latency).
+Other addresses for hachyderm.io (not scanned): 2600:3c03::f03c:93ff:feaa:7c45
+rDNS record for 74.207.251.5: 74-207-251-5.ip.linodeusercontent.com
+Not shown: 987 filtered tcp ports (no-response), 10 filtered tcp ports (admin-prohibited)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6, Linux 5.0 - 5.4
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.99 seconds

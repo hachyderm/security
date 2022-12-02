@@ -30,20 +30,21 @@ fi
 
 DATE=$(date '+%Y-%m-%d')
 TARGET=$@ # Pass all arguments for good measure
-1=twitter
 
 # Operating System Scan
-sudo -E nmap -O $TARGET | tee out/$1-$DATE.nmap.osscan 
+sudo -E nmap -O $TARGET | tee out/$1-$DATE.nmap.osscan
 
 # Regular Port Scan
-sudo -E nmap $TARGET | tee out/$1-$DATE.nmap.ports 
+sudo -E nmap $TARGET | tee out/$1-$DATE.nmap.ports
 
 # HTTP 
-sudo -E nmap --script=http-headers $TARGET | tee out/$1-$DATE.nmap.http 
+sudo -E nmap --script=http-headers $TARGET | tee out/$1-$DATE.nmap.http
 
 # Common Scripts
-sudo -E nmap -sC $TARGET | tee out/$1-$DATE.nmap.common 
+sudo -E nmap -sC $TARGET | tee out/$1-$DATE.nmap.common
 
 # Vulnerability (CVE) Scan
 sudo -E nmap -sV -sS --script=vulscan/vulscan.nse $TARGET | tee out/$1-$DATE.nmap.vuln
 
+# Security Headers
+sudo -E nmap --script http-security-headers $TARGET | tee out/$1-$DATE.nmap.security-headers

@@ -1,0 +1,15 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-02 07:19 PST
+Nmap scan report for esme.hachyderm.io (139.162.143.203)
+Host is up (0.16s latency).
+Other addresses for esme.hachyderm.io (not scanned): 2a01:7e01::f03c:93ff:fe38:4008
+rDNS record for 139.162.143.203: 139-162-143-203.ip.linodeusercontent.com
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+| http-security-headers: 
+|   Strict_Transport_Security: 
+|_    HSTS not configured in HTTPS Server
+
+Nmap done: 1 IP address (1 host up) scanned in 11.43 seconds

@@ -1,0 +1,10 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-02 07:49 PST
+Nmap scan report for franz.hachyderm.io (88.99.61.61)
+Host is up (0.16s latency).
+Other addresses for franz.hachyderm.io (not scanned): 2a01:4f8:10a:d68::2
+rDNS record for 88.99.61.61: static.61.61.99.88.clients.your-server.de
+Not shown: 987 filtered tcp ports (no-response), 12 filtered tcp ports (admin-prohibited)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 10.34 seconds

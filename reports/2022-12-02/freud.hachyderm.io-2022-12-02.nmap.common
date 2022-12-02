@@ -1,0 +1,11 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-02 07:45 PST
+Nmap scan report for freud.hachyderm.io (195.201.195.102)
+Host is up (0.17s latency).
+Not shown: 989 filtered tcp ports (no-response), 10 filtered tcp ports (admin-prohibited)
+PORT   STATE SERVICE
+22/tcp open  ssh
+| ssh-hostkey: 
+|   256 85998d41e947403e9c9819aaf6f7ae21 (ECDSA)
+|_  256 abf46c7be4eb59642ac0cc4507e0013f (ED25519)
+
+Nmap done: 1 IP address (1 host up) scanned in 16.13 seconds

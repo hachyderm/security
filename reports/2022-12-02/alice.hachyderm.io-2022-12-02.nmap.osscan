@@ -1,0 +1,17 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-02 07:40 PST
+Nmap scan report for alice.hachyderm.io (63.228.108.114)
+Host is up (0.0015s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Linux 5.X|4.X (88%)
+OS CPE: cpe:/o:linux:linux_kernel:5 cpe:/o:linux:linux_kernel:4.0
+Aggressive OS guesses: Linux 5.0 - 5.4 (88%), Linux 4.0 (88%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.90 seconds

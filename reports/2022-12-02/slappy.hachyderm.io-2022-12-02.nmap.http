@@ -1,0 +1,27 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2022-12-02 07:00 PST
+Nmap scan report for slappy.hachyderm.io (23.239.11.97)
+Host is up (0.071s latency).
+Other addresses for slappy.hachyderm.io (not scanned): 2600:3c03::f03c:93ff:feaa:7c45
+rDNS record for 23.239.11.97: 23-239-11-97.ip.linodeusercontent.com
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+| http-headers: 
+|   Server: nginx/1.22.1
+|   Date: Fri, 02 Dec 2022 15:00:21 GMT
+|   Content-Type: text/html
+|   Content-Length: 153
+|   Connection: close
+|   
+|_  (Request type: GET)
+443/tcp open  https
+| http-headers: 
+|   Date: Fri, 02 Dec 2022 15:00:21 GMT
+|   Content-Type: text/html; charset=UTF-8
+|   Content-Length: 0
+|   Connection: close
+|   
+|_  (Request type: GET)
+
+Nmap done: 1 IP address (1 host up) scanned in 8.00 seconds
