@@ -13,7 +13,7 @@ Performing a lightweight scan of the edge of Hachyderm, and a light amount of OS
 ## Edge (CDN) Summary 
 
 The overall risk profile of our CDN is **LOW RISK**.
-The overall risk profile of our code infrastructure is **UNKNOWN**.
+The overall risk profile of our code infrastructure is **MEDIUM RISK**.
 
 The following alias names will be used in the report.
 
